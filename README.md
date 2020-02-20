@@ -30,21 +30,7 @@ The second line contains N integers – the number of slices in each type of piz
 </pre>
 
 
-![alt text](https://raw.githubusercontent.com/username/projectname/branch/path/to/img.png)
-
-S0 (2 slices)	
-
-![alt text](https://raw.githubusercontent.com/username/projectname/branch/path/to/img.png)
-
-S1 (5 slices)	
-
-![alt text](https://raw.githubusercontent.com/username/projectname/branch/path/to/img.png)
-
-S2 (6 slices)	
-
-![alt text](https://raw.githubusercontent.com/username/projectname/branch/path/to/img.png)
-
-S3 (8 slices)
+![alt text](https://github.com/inianantony/morepizza/blob/master/pizza.png)
 
 ## Submissions
 ### File format
