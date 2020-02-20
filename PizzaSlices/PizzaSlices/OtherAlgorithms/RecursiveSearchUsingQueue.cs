@@ -4,7 +4,7 @@ using System.Linq;
 
 namespace PizzaSlices.OtherAlgorithms
 {
-    public class RecursiveSearchUsingList
+    public class RecursiveSearchUsingQueue
     {
         private readonly ConcurrentDictionary<string, int> _nextInputs = new ConcurrentDictionary<string, int>();
 
