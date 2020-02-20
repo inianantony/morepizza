@@ -15,12 +15,11 @@ namespace PizzaSlices.OtherAlgorithms
 
             var previousChosenCombination = new List<int>();
             var previousChosenSum = 0;
-            int count = 1;
             while (string.Join("", binary.ToArray()) != string.Join("", expected.ToArray()))
             {
                 if (binary.Sum() % 2 == 0)
                 {
-                    binary[binary.Count - 1] = 1 - binary[binary.Count - 1];
+                    binary[^1] = 1 - binary[^1];
                 }
                 else
                 {
@@ -43,7 +42,6 @@ namespace PizzaSlices.OtherAlgorithms
                 var newInputStr = string.Join(" ", newInput.ToArray());
                 if (newInputStr != "")
                 {
-                    count++;
                 }
             }
             return previousChosenCombination;
