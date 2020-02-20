@@ -48,6 +48,7 @@ namespace PizzaSlices
             return new SliceAnswer
             {
                 PizzaTypes = _previousChosenCombination.Length,
+                Combination = _previousChosenCombination,
                 Pizzas = _previousChosenIndexes
             };
         }
