@@ -41,6 +41,12 @@ The output should contain two lines:
 The total number of slices in the ordered pizzas must be less than or equal to M.
  
 ### Example
+
+First Header | Second Header
+------------ | -------------
+Content from cell 1 | Content from cell 2
+Content in the first column | Content in the second column
+
 <pre>
 |Submission file | Description                      |
 |3 3             | types of pizza                   |
