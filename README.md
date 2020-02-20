@@ -45,7 +45,7 @@ The total number of slices in the ordered pizzas must be less than or equal to M
 
 Submission file | Description
 ------------ | -------------
-3 3 | types of pizza 
+3 | 3 types of pizza 
 0 2 3	 | ordering pizzas: S0, S2, and S3
 
 
