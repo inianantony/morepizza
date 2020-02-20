@@ -5,7 +5,7 @@ namespace PizzaSlices
 {
     public class CombinationGenerator
     {
-        public static IEnumerable<T[]> Generate<T>(T[] source, int combinationFor)
+        public static IEnumerable<Tuple<T[], int[]>> Generate<T>(T[] source, int combinationFor)
         {
             if (source.Length < combinationFor)
                 throw new ArgumentException("Source cant be less than the combination requested for");
@@ -19,7 +19,7 @@ namespace PizzaSlices
                 {
                     result[i] = source[j[i]];
                 }
-                yield return result;
+                yield return new Tuple<T[],int[]>(result,j);
             }
         }
 

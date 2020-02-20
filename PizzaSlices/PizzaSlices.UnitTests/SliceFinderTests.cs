@@ -1,3 +1,4 @@
+using ExpectedObjects;
 using NUnit.Framework;
 
 namespace PizzaSlices.UnitTests
@@ -20,7 +21,7 @@ namespace PizzaSlices.UnitTests
 
             //Assert
             Assert.AreEqual(3, result.PizzaTypes);
-            Assert.AreEqual(new int[] { 0, 2, 3 }, result.Pizzas);
+            new[] { 0, 2, 3 }.ToExpectedObject().ShouldMatch(result.Pizzas);
         }
     }
 }
