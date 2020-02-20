@@ -23,11 +23,12 @@ The second line contains N integers – the number of slices in each type of piz
 
 ### Example
 
-<pre>
-|Input file | Description                                                               |
-| 17 4      | 17 slices maximum, 4 different types of pizza                             |
-| 2 5 6 8    | type 0 has 2 slices, type 1 has 5, type 2 has 6, and type 3 has 8 slices |
-</pre>
+
+Input file | Description
+---------- | -----------
+17 4| 17 slices maximum, 4 different types of pizza                            
+2 5 6 8| type 0 has 2 slices, type 1 has 5, type 2 has 6, and type 3 has 8 slices 
+
 
 
 ![alt text](https://github.com/inianantony/morepizza/blob/master/pizza.png)
