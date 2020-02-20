@@ -1,3 +1,5 @@
+using System.Collections;
+
 namespace PizzaSlices
 {
     public class SliceFinder
@@ -13,6 +15,11 @@ namespace PizzaSlices
 
         public SliceAnswer Find()
         {
+            int combinationFor = 1;
+            foreach (var combination in CombinationGenerator.Generate(_source, combinationFor))
+            {
+
+            }
             return new SliceAnswer
             {
                 PizzaTypes = 3,
